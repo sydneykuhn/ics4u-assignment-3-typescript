@@ -162,31 +162,45 @@ class Triangle {
 
   // height Method
   height(side: number): number {
-    let height: number
-    const area: number = this.area()
-    if (side === 1) {
-      height = (2 * area) / this.side1
-    } else if (side === 2) {
-      height = (2 * area) / this.side2
+    if (this.isValid()) {
+      let height: number
+      const area: number = this.area()
+      if (side === 1) {
+        height = (2 * area) / this.side1
+      } else if (side === 2) {
+        height = (2 * area) / this.side2
+      } else {
+        height = (2 * area) / this.side3
+      }
+      return height
     } else {
-      height = (2 * area) / this.side3
+      return -1
     }
-    return height
   }
 
   // innerCircleRadius Method
   innerCircleRadius(): number {
-    return this.area() / this.semiPerimeter()
+    if (this.isValid()) {
+      let radius
+      radius = this.area() / this.semiPerimeter()
+      return radius
+    } else {
+      return -1
+    }
   }
 
   // circumsicleRadius Method
   circumsicleRadius(): number {
-    let circumradius = 0
-    let pi = 3.14
-    circumradius =
-      (this.side1 * this.side2 * this.side3) /
-      (4 * this.innerCircleRadius() * this.semiPerimeter())
-    return circumradius
+    if (this.isValid()) {
+      let circumradius = 0
+      let pi = 3.14
+      circumradius =
+        (this.side1 * this.side2 * this.side3) /
+        (4 * this.innerCircleRadius() * this.semiPerimeter())
+      return circumradius
+    } else {
+      return -1
+    }
   }
 }
 
