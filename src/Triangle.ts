@@ -81,20 +81,23 @@ class Triangle {
       let angle = []
 
       angle1 = Math.acos(
-              (Math.pow(this.side1, 2) +
-               Math.pow(this.side2, 2) -
-               Math.pow(this.side3, 2)) /
-               (2 * this.side1 * this.side2))
+        (Math.pow(this.side1, 2) +
+          Math.pow(this.side2, 2) -
+          Math.pow(this.side3, 2)) /
+          (2 * this.side1 * this.side2)
+      )
       angle2 = Math.acos(
-              (Math.pow(this.side1, 2) +
-               Math.pow(this.side3, 2) -
-               Math.pow(this.side2, 2)) /
-               (2 * this.side1 * this.side3))
+        (Math.pow(this.side1, 2) +
+          Math.pow(this.side3, 2) -
+          Math.pow(this.side2, 2)) /
+          (2 * this.side1 * this.side3)
+      )
       angle3 = Math.acos(
-              (Math.pow(this.side2, 2) +
-               Math.pow(this.side3, 2) -
-               Math.pow(this.side1, 2)) /
-               (2 * this.side2 * this.side3))
+        (Math.pow(this.side2, 2) +
+          Math.pow(this.side3, 2) -
+          Math.pow(this.side1, 2)) /
+          (2 * this.side2 * this.side3)
+      )
 
       // Return Values as an Array
       angle = [angle1, angle2, angle3]
@@ -181,7 +184,8 @@ class Triangle {
     let circumradius = 0
     let pi = 3.14
     circumradius =
-      (this.side1 * this.side2 * this.side3) / (4 * this.innerCircleRadius() * this.semiPerimeter())
+      (this.side1 * this.side2 * this.side3) /
+      (4 * this.innerCircleRadius() * this.semiPerimeter())
     return circumradius
   }
 }

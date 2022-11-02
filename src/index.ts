@@ -27,8 +27,16 @@ console.log(' → Angle 3: ' + testTriangle1.angle(3).toFixed(4) + ' rad')
 console.log(' → Height 1: ' + testTriangle1.height(1).toFixed(4) + ' mm')
 console.log(' → Height 2: ' + testTriangle1.height(2).toFixed(4) + ' mm')
 console.log(' → Height 3: ' + testTriangle1.height(3).toFixed(4) + ' mm')
-console.log(' → Inner circle radius: ' + testTriangle1.innerCircleRadius().toFixed(4) + ' mm')
-console.log(' → Circumcircle radius: ' + testTriangle1.circumsicleRadius().toFixed(4) + ' mm')
+console.log(
+  ' → Inner circle radius: ' +
+    testTriangle1.innerCircleRadius().toFixed(4) +
+    ' mm'
+)
+console.log(
+  ' → Circumcircle radius: ' +
+    testTriangle1.circumsicleRadius().toFixed(4) +
+    ' mm'
+)
 console.log('')
 
 // Triangle 2
@@ -46,8 +54,16 @@ console.log(' → Angle 3: ' + testTriangle2.angle(3).toFixed(4) + ' rad')
 console.log(' → Height 1: ' + testTriangle2.height(1).toFixed(4) + ' mm')
 console.log(' → Height 2: ' + testTriangle2.height(2).toFixed(4) + ' mm')
 console.log(' → Height 3: ' + testTriangle2.height(3).toFixed(4) + ' mm')
-console.log(' → Inner circle radius: ' + testTriangle2.innerCircleRadius().toFixed(4) + ' mm')
-console.log(' → Circumcircle radius: ' + testTriangle2.circumsicleRadius().toFixed(4) + ' mm')
+console.log(
+  ' → Inner circle radius: ' +
+    testTriangle2.innerCircleRadius().toFixed(4) +
+    ' mm'
+)
+console.log(
+  ' → Circumcircle radius: ' +
+    testTriangle2.circumsicleRadius().toFixed(4) +
+    ' mm'
+)
 console.log('')
 
 // Triangle 3
@@ -65,8 +81,16 @@ console.log(' → Angle 3: ' + testTriangle3.angle(3).toFixed(4) + ' rad')
 console.log(' → Height 1: ' + testTriangle3.height(1).toFixed(4) + ' mm')
 console.log(' → Height 2: ' + testTriangle3.height(2).toFixed(4) + ' mm')
 console.log(' → Height 3: ' + testTriangle3.height(3).toFixed(4) + ' mm')
-console.log(' → Inner circle radius: ' + testTriangle3.innerCircleRadius().toFixed(4) + ' mm')
-console.log(' → Circumcircle radius: ' + testTriangle3.circumsicleRadius().toFixed(4) + ' mm')
+console.log(
+  ' → Inner circle radius: ' +
+    testTriangle3.innerCircleRadius().toFixed(4) +
+    ' mm'
+)
+console.log(
+  ' → Circumcircle radius: ' +
+    testTriangle3.circumsicleRadius().toFixed(4) +
+    ' mm'
+)
 console.log('')
 
 // Triangle 4
@@ -84,8 +108,16 @@ console.log(' → Angle 3: ' + testTriangle4.angle(3).toFixed(4) + ' rad')
 console.log(' → Height 1: ' + testTriangle4.height(1).toFixed(4) + ' mm')
 console.log(' → Height 2: ' + testTriangle4.height(2).toFixed(4) + ' mm')
 console.log(' → Height 3: ' + testTriangle4.height(3).toFixed(4) + ' mm')
-console.log(' → Inner circle radius: ' + testTriangle4.innerCircleRadius().toFixed(4) + ' mm')
-console.log(' → Circumcircle radius: ' + testTriangle4.circumsicleRadius().toFixed(4) + ' mm')
+console.log(
+  ' → Inner circle radius: ' +
+    testTriangle4.innerCircleRadius().toFixed(4) +
+    ' mm'
+)
+console.log(
+  ' → Circumcircle radius: ' +
+    testTriangle4.circumsicleRadius().toFixed(4) +
+    ' mm'
+)
 console.log('')
 
 // Triangle 5
@@ -103,8 +135,16 @@ console.log(' → Angle 3: ' + testTriangle5.angle(3).toFixed(4) + ' rad')
 console.log(' → Height 1: ' + testTriangle5.height(1).toFixed(4) + ' mm')
 console.log(' → Height 2: ' + testTriangle5.height(2).toFixed(4) + ' mm')
 console.log(' → Height 3: ' + testTriangle5.height(3).toFixed(4) + ' mm')
-console.log(' → Inner circle radius: ' + testTriangle5.innerCircleRadius().toFixed(4) + ' mm')
-console.log(' → Circumcircle radius: ' + testTriangle5.circumsicleRadius().toFixed(4) + ' mm')
+console.log(
+  ' → Inner circle radius: ' +
+    testTriangle5.innerCircleRadius().toFixed(4) +
+    ' mm'
+)
+console.log(
+  ' → Circumcircle radius: ' +
+    testTriangle5.circumsicleRadius().toFixed(4) +
+    ' mm'
+)
 
 // Finsh output
 console.log('\nDone.')
